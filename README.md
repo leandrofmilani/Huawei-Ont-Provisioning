@@ -20,4 +20,4 @@ At the main def you can find the follow variables:
  
  The file .csv follow the structure of the file example.csv.
  
- Example of usage: python3 huawei_provisioning.py -o 192.168.155.3 -s3 -p15 -f file.csv
+ Example of usage: python3 huawei_provisioning.py -o 192.168.155.3 -s3 -p15 -f example.csv
