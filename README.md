@@ -4,6 +4,7 @@ Python3 script for provisioning ont for huawei olt using telnet.
 This script was developed for provide a easy way to provisioning ont to huawei olt, by default it will add an ont in bridge mode, a few variables that define the default configuration of the olt.
 
 At the main def you can find the follow variables:
+
 	user = 'root' # The login for telnet
 	password = 'admin' # Password for telnet
 	frame = '0' #Default frame of OLT
