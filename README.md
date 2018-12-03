@@ -1,5 +1,5 @@
 # Huawei-Ont-Provisioning
-Python3 script for provisioning ont for huawei olt using telnet.
+Python3 script for mass provisioning ont for huawei olt using telnet.
 
 This script was developed for provide a easy way to provisioning ont to huawei olt, by default it will add an ont in bridge mode, a few variables that define the default configuration of the olt.
 
@@ -18,6 +18,6 @@ At the main def you can find the follow variables:
   
   *Change it for your OLT configuration
  
- The file .csv follow the structure of the file example.csv.
+ The file .csv follow the structure of the file example.csv. First we have the cod of de costumer, followed by the name and the ont number.
  
  Example of usage: python3 huawei_provisioning.py -o 192.168.155.3 -s3 -p15 -f example.csv
